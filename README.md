@@ -53,7 +53,7 @@ To run this project locally:
 
 **Jia Dabalos**  
 BS Computer Science Student  
-Student / Aspiring Analyst
+Student / Aspiring Data Analyst
 
 ---
 
