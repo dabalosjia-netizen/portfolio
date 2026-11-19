@@ -1,0 +1,1051 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Interactive Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Montserrat:wght@300;400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="portfolio">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+<div class="logo">
+    <button class="logo-icon" id="settingsBtn" title="Settings">
+        <i class="fa-solid fa-gear"></i>
+    </button>
+    <span>MY PORTFOLIO</span>
+</div>
+
+        <div class="profile-mini">
+            <img src="profile.jpg" alt="Profile Picture">
+            <h3>Jia Dabalos</h3>
+            <p>Student / Aspiring Data Analyst</p>
+        </div>
+
+        <div class="nav-title">MENU</div>
+
+        <nav class="navigation">
+
+            <button class="nav-btn active" data-view="home">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </button>
+
+            <button class="nav-btn" data-view="about">
+                <i class="fa-solid fa-user"></i>
+                <span>About Me</span>
+            </button>
+
+            <button class="nav-btn" data-view="education">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Education</span>
+            </button>
+
+            <button class="nav-btn" data-view="skills">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>Skills</span>
+            </button>
+
+            <button class="nav-btn" data-view="projects">
+                <i class="fa-solid fa-folder-open"></i>
+                <span>Projects</span>
+            </button>
+
+            <button class="nav-btn" data-view="certification">
+                <i class="fa-solid fa-certificate"></i>
+                <span>Certification</span>
+            </button>
+
+            <button class="nav-btn" data-view="contact">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Contact</span>
+            </button>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <button class="theme-toggle" id="themeToggle">
+                <i class="fa-solid fa-moon" id="themeIcon"></i>
+                <span id="themeText">Dark Mode</span>
+            </button>
+
+            <p>My Portfolio</p>
+
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <header class="topbar">
+
+            <div>
+                <p class="welcome-text">WELCOME TO MY WORLD</p>
+                <h2 id="pageTitle">Home</h2>
+            </div>
+
+            <div class="top-actions">
+                <span class="status">
+                    <span class="status-dot"></span>
+                    Available for opportunities
+                </span>
+
+                <button class="home-button" id="homeButton"
+                title="Go to Home">
+                    <i class="fa-solid fa-house"></i>
+                </button>
+            </div>
+
+        </header>
+
+
+        <!-- ALL CONTENT IS DISPLAYED HERE -->
+        <section class="content-area" id="contentArea">
+
+        
+
+            <!-- HOME -->
+            <section class="view active" id="home">
+
+                <div class="home-content">
+
+                    <div class="home-text">
+
+                        <span class="small-label">
+                            HELLO THERE! I'M
+                        </span>
+
+                        <h1>Jia<span> Dabalos</span></h1>
+
+                        <h2 class="typing-text">
+                            Aspiring Data Analyst
+                        </h2>
+
+                        <p>
+                            Welcome to my personal portfolio! I am passionate
+                            about learning, creating, and developing meaningful
+                            digital experiences. Explore my portfolio to know
+                            more about me, my skills, education, and projects.
+                        </p>
+
+                        <div class="home-buttons">
+
+                            <button class="primary-btn" data-go="about">
+                                Explore My Profile
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+                            <button class="secondary-btn" data-go="contact">
+                                Contact Me
+                            </button>
+
+                        </div>
+
+
+<div class="social-icons">
+
+    <!-- INSTAGRAM -->
+    <a href="https://www.instagram.com/jiyahhhhhhhhhhh/"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <!-- GITHUB -->
+    <a href="https://github.com/dabalosjia-netizen"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="GitHub">
+        <i class="fa-brands fa-github"></i>
+    </a>
+
+    <!-- LINKEDIN -->
+    <a href="https://www.linkedin.com/in/Jia_Dabalos/"
+       target="_blank"
+       rel="noopener noreferrer"
+       title="LinkedIn">
+        <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+
+</div>
+
+                    </div>
+
+                    <div class="home-image">
+
+                        <div class="image-decoration"></div>
+
+                        <img src="profile.jpg"
+                        alt="My Profile Picture">
+
+                        <div class="floating-card">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="home-footer">
+                    <span><i class="fa-solid fa-heart"></i>
+                    Designed with passion</span>
+                    <span>MY PERSONAL PORTFOLIO</span>
+                </div>
+
+            </section>
+
+
+            <!-- ABOUT ME -->
+            <section class="view" id="about">
+
+                <div class="section-heading">
+                    <span class="small-label">GET TO KNOW ME</span>
+                    <h1>About <span>Me</span></h1>
+                    <p>A little introduction about myself and my journey.</p>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-picture">
+                        <img src="profile.jpg" alt="My Picture">
+                    </div>
+
+                    <div class="about-details">
+
+                        <h2>Who Am I?</h2>
+
+                        <p>
+                            Hello! I'm <strong>Jia Dabalos</strong> a passionate student who enjoys exploring technology, creativity, and continuous learning.
+                        Although coding isn't my first love, I'm always willing to learn and improve. I love discovering new things, developing my skills, and challenging myself through different projects and experiences.
+                        </p>
+
+                        <p>
+                            Outside academics and technology, I enjoy listening to K-pop, watching BL series, exploring
+                            Thai entertainment, and connecting with different fandoms. 
+                            I also enjoy learning languages, improving my communication skills, and expressing my thoughts through writing.
+                            I consider myself a curious learner who enjoys combining creativity, technology, and personal interests while continuously discovering new things.
+                        </p>
+
+                        <div class="info-grid">
+
+                            <div class="info-box">
+                                <i class="fa-solid fa-user"></i>
+                                <div>
+                                    <small>Name</small>
+                                    <strong>Jia Dabalos</strong>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <small>Location</small>
+                                    <strong>Capoocan, Leyte</strong>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div>
+                                    <small>Course</small>
+                                    <strong>Bachelor of Science in Computer Science</strong>
+                                </div>
+                            </div>
+
+                            <div class="info-box">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <small>Email</small>
+                                    <strong>dabalosjia@email.com</strong>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+<!-- EDUCATION -->
+<section class="view" id="education">
+
+    <div class="section-heading">
+        <span class="small-label">MY ACADEMIC JOURNEY</span>
+        <h1>My <span>Education</span></h1>
+        <p>My educational background and learning experiences.</p>
+    </div>
+
+    <div class="timeline">
+
+        <!-- COLLEGE -->
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+
+            <div class="timeline-card">
+                <span class="year">2026-2027</span>
+                <h2>College Education</h2>
+                <h3>Biliran Province State University</h3>
+
+                <div class="education-description">
+                    <p>
+                        Bachelor of Science in Computer Science.
+                    </p>
+
+                    <p>
+                        Learning programming, software development,
+                        database management, and other technologies.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SENIOR HIGH SCHOOL -->
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <i class="fa-solid fa-school"></i>
+            </div>
+
+            <div class="timeline-card">
+                <span class="year">2022-2023</span>
+                <h2>Senior High School</h2>
+                <h3>Libertad National High School</h3>
+
+                <p>
+                    Honor Student 
+                    Supreme Student Government - Treasurer
+                </p>
+            </div>
+        </div>
+
+        <!-- JUNIOR HIGH SCHOOL -->
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+
+            <div class="timeline-card">
+                <span class="year">2019-2020</span>
+                <h2>Junior High School</h2>
+                <h3>Libertad National High School</h3>
+
+                <p>Batch 2019-2020</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS PAGE ================= -->
+<section class="view" id="skills">
+
+    <div class="section-heading">
+        <span class="small-label">WHAT I CAN DO</span>
+        <h1>My <span>Skills</span></h1>
+        <p>Technologies and abilities I continue to develop.</p>
+    </div>
+
+    <!-- SKILLS GRID START -->
+    <div class="skills-grid">
+
+        <!-- HTML -->
+        <div class="skill-card" onclick="showSkillDetails('skill1')">
+            <div class="skill-logo">
+                <img src="html.jpg" alt="HTML5">
+            </div>
+            <div class="skill-progress">
+                <div class="progress-bar" style="width:85%"></div>
+            </div>
+            <span class="skill-percent">50%</span>
+            <button class="skill-details" type="button"></button>
+        </div>
+
+        <!-- CSS -->
+        <div class="skill-card" onclick="showSkillDetails('skill2')">
+            <div class="skill-logo">
+                <img src="https://cdn.simpleicons.org/css/663399" alt="CSS3">
+            </div>
+            <div class="skill-progress">
+                <div class="progress-bar" style="width:75%"></div>
+            </div>
+            <span class="skill-percent">50%</span>
+            <button class="skill-details" type="button"></button>
+        </div>
+
+        <!-- CANVA -->
+        <div class="skill-card" onclick="showSkillDetails('skill3')">
+            <div class="skill-logo">
+                <img src="canva.png" alt="Canva">
+            </div>
+            <div class="skill-progress">
+                <div class="progress-bar" style="width:85%"></div>
+            </div>
+            <span class="skill-percent">65%</span>
+            <button class="skill-details" type="button"></button>
+        </div>
+
+        <!-- WPS OFFICE -->
+        <div class="skill-card" onclick="showSkillDetails('skill4')">
+            <div class="skill-logo">
+                <img src="wps.webp" alt="WPS Office">
+            </div>
+            <div class="skill-progress">
+                <div class="progress-bar" style="width:80%"></div>
+            </div>
+            <span class="skill-percent">75%</span>
+            <button class="skill-details" type="button"></button>
+        </div>
+
+                <!-- JAVASCRIPT -->
+        <div class="skill-card" onclick="showSkillDetails('skill5')">
+            <div class="skill-logo">
+                <img src="javascript.webp" alt="Javascript">
+            </div>
+            <div class="skill-progress">
+                <div class="progress-bar" style="width:80%"></div>
+            </div>
+            <span class="skill-percent">50%</span>
+            <button class="skill-details" type="button"></button>
+        </div>
+
+                <!-- PYTHON -->
+        <div class="skill-card" onclick="showSkillDetails('skill4')">
+            <div class="skill-logo">
+                <img src="pyhton.webp" alt="Python">
+            </div>
+            <div class="skill-progress">
+                <div class="progress-bar" style="width:80%"></div>
+            </div>
+            <span class="skill-percent">50%</span>
+            <button class="skill-details" type="button"></button>
+        </div>
+
+    </div>
+    <!-- SKILLS GRID END -->
+
+</section>
+
+</section>
+
+
+<!-- ================= PROJECTS PAGE ================= -->
+<section class="view" id="projects">
+
+    <div class="section-heading">
+        <span class="small-label">MY RECENT WORK</span>
+        <h1>My <span>Projects</span></h1>
+        <p>A collection of my projects and creative works.</p>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- PROJECT 1: PINYIN -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="pinyin.png" alt="Pinyin Product Scanner">
+            </div>
+
+            <div class="project-content">
+                <span class="project-type">WEB DEVELOPMENT</span>
+                <h2>Pinyin Product Scanner</h2>
+                <p>A web-based product scanning and price lookup application.</p>
+
+                <button class="details-btn" data-project="project1">
+                    See Details <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- PROJECT 2: CRABLENS -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="crablens.jpg" alt="Crab Classification System">
+            </div>
+
+            <div class="project-content">
+                <span class="project-type">MACHINE LEARNING</span>
+                <h2>Crab Classification System</h2>
+                <p>An image classification and detection system using CNN and YOLOv8.</p>
+
+                <button class="details-btn" data-project="project2">
+                    See Details <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project-card">
+            <div class="project-image">
+                <img src="project3.png" alt="Third Project">
+            </div>
+
+            <div class="project-content">
+                <span class="project-type">OTHER PROJECT</span>
+                <h2>My Third Project</h2>
+                <p>Add your project description here.</p>
+
+                <button class="details-btn" data-project="project3">
+                    See Details <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= PROJECT 1 DETAILS ================= -->
+<section class="view detail-view" id="project1">
+
+    <button class="back-btn" data-back="projects">
+        <i class="fa-solid fa-arrow-left"></i> Back to Projects
+    </button>
+
+    <div class="detail-content">
+
+        <div class="detail-image">
+            <img src="pinyin.png" alt="Pinyin Product Scanner">
+        </div>
+
+        <div class="detail-text">
+            <span class="small-label">WEB DEVELOPMENT PROJECT</span>
+            <h1>Pinyin Product Scanner</h1>
+
+            <p>
+                Pinyin is a web-based product scanning and price lookup
+                application designed to make product information more
+                accessible and convenient for customers.
+            </p>
+
+            <h3>Project Objectives</h3>
+            <ul>
+                <li>Provide an easy way to search for product information.</li>
+                <li>Allow customers to check product prices conveniently.</li>
+                <li>Reduce the time spent manually searching for products.</li>
+                <li>Provide a user-friendly product lookup experience.</li>
+            </ul>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li>Barcode scanning using a camera.</li>
+                <li>Manual barcode and product search.</li>
+                <li>Product information and price display.</li>
+                <li>Shopping cart management.</li>
+                <li>Admin dashboard for product management.</li>
+            </ul>
+
+            <h3>Technologies Used</h3>
+            <p>Python, Django, HTML, CSS, JavaScript, SQLite, HTML5-QRCode</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= PROJECT 2 DETAILS ================= -->
+<section class="view detail-view" id="project2">
+
+    <button class="back-btn" data-back="projects">
+        <i class="fa-solid fa-arrow-left"></i> Back to Projects
+    </button>
+
+    <div class="detail-content">
+
+        <div class="detail-image">
+            <img src="crablens.jpg" alt="Crab Classification System">
+        </div>
+
+        <div class="detail-text">
+            <span class="small-label">MACHINE LEARNING PROJECT</span>
+            <h1>Crab Classification System</h1>
+
+            <p>
+                CrabLens is an image-based crab classification and detection
+                system that uses CNN and YOLOv8 to identify different crab
+                species through uploaded images and real-time camera detection.
+                It aims to promote awareness and provide information about
+                crab species and their classification as edible or non-edible
+                based on available references.
+            </p>
+
+            <h3>Project Objectives</h3>
+            <ul>
+                <li>Identify and classify different crab species.</li>
+                <li>Help distinguish edible and non-edible crab species based on references.</li>
+                <li>Provide convenient crab identification through a mobile application.</li>
+                <li>Promote awareness about crab species and safety.</li>
+            </ul>
+
+            <h3>Key Features</h3>
+            <ul>
+                <li>Manual image upload and detection.</li>
+                <li>Real-time camera detection.</li>
+                <li>Crab species classification.</li>
+                <li>YOLO bounding box visualization.</li>
+                <li>Display of crab species information.</li>
+            </ul>
+
+            <h3>Technologies Used</h3>
+            <p>Python, CNN, YOLOv8, OpenCV, Roboflow, Google Colab</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= PROJECT 3 DETAILS ================= -->
+<section class="view detail-view" id="project3">
+
+    <button class="back-btn" data-back="projects">
+        <i class="fa-solid fa-arrow-left"></i> Back to Projects
+    </button>
+
+    <div class="detail-content">
+
+        <div class="detail-image">
+            <img src="images/project3.png" alt="Third Project">
+        </div>
+
+        <div class="detail-text">
+            <span class="small-label">OTHER PROJECT</span>
+            <h1>My Third Project</h1>
+
+            <p>
+                Add your project overview and description here.
+            </p>
+
+            <h3>Project Objectives</h3>
+            <ul>
+                <li>Add your project objectives here.</li>
+                <li>Explain the purpose of your project.</li>
+            </ul>
+
+            <h3>Technologies Used</h3>
+            <p>Add the programming languages and tools you used.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= CERTIFICATION MAIN PAGE ================= -->
+<section class="view" id="certification">
+
+    <div class="section-heading">
+        <span class="small-label">MY ACHIEVEMENTS</span>
+        <h1>My <span>Certifications</span></h1>
+        <p>Click a certificate to view its information.</p>
+    </div>
+
+    <div class="cert-grid">
+
+        <!-- CERTIFICATE 1 -->
+        <button class="cert-card" data-certificate="cert1">
+
+            <div class="cert-image">
+                <img src="certificate1.png" alt="Integrated OS Certificate">
+            </div>
+
+            <div class="cert-info">
+                <span>01 / CERTIFICATE</span>
+                <h3>Integrated OS - Be More Digi-TALINO</h3>
+                <p>Issued by: Integrated</p>
+
+                <span class="view-cert">
+                    View Certificate
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+
+        </button>
+
+        <!-- CERTIFICATE 2 -->
+        <button class="cert-card" data-certificate="cert2">
+
+            <div class="cert-image">
+                <img src="certificate2.png" alt="Certificate Two">
+            </div>
+
+            <div class="cert-info">
+                <span>02 / CERTIFICATE</span>
+                <h3>Networking Basic</h3>
+                <p>Issued by: CISCO</p>
+
+                <span class="view-cert">
+                    View Certificate
+                    <i class="fa-solid fa-arrow-right"></i>
+                </span>
+            </div>
+
+        </button>
+
+        
+<!-- CERTIFICATE 3 -->
+<button class="cert-card" data-certificate="cert3">
+
+    <div class="cert-image">
+        <img src="certificate3.png" alt="Certificate Three">
+    </div>
+
+    <div class="cert-info">
+        <span>03 / CERTIFICATE</span>
+        <h3>Networking Basic</h3>
+        <p>Issued by: CISCO</p>
+
+        <span class="view-cert">
+            View Certificate
+            <i class="fa-solid fa-arrow-right"></i>
+        </span>
+    </div>
+
+</button>
+
+<!-- CERTIFICATE 4 -->
+<button class="cert-card" data-certificate="cert4">
+
+    <div class="cert-image">
+        <img src="certificate4.png" alt=" ICpEP Certificate">
+    </div>
+
+    <div class="cert-info">
+        <span>04 / CERTIFICATE</span>
+        <h3>ANINO Intelligence Without Ordinary Boundaries</h3>
+        <p>Issued by: Institute of Computer Engineers of the Philippines (ICpEP) - Quatar Chapter</p>
+
+        <span class="view-cert">
+            View Certificate
+            <i class="fa-solid fa-arrow-right"></i>
+        </span>
+    </div>
+
+</button>
+
+    </div>
+</section>
+
+
+<!-- ================= CERTIFICATE 1 DETAILS ================= -->
+<section class="view detail-view" id="cert1">
+
+    <button class="back-btn" data-back="certification">
+        <i class="fa-solid fa-arrow-left"></i> Back to Certifications
+    </button>
+
+    <div class="detail-content">
+
+        <div class="detail-image">
+            <img src="certificate1.png" alt="Integrated OS Certificate">
+        </div>
+
+        <div class="detail-text">
+
+            <span class="small-label">CERTIFICATE DETAILS</span>
+
+            <h1>Integrated OS - Be More Digi-TALINO</h1>
+
+            <p>
+                This certificate recognizes participation in the
+                Be More Digi-TALINO program organized by Integrated.
+            </p>
+
+            <h3>Certificate Information</h3>
+
+            <ul>
+                <li><strong>Certificate:</strong> Be More Digi-TALINO</li>
+                <li><strong>Organization:</strong> Integrated</li>
+                <li><strong>Category:</strong> Digital Learning / Training</li>
+                <li><strong>Date:</strong> September 5, 2026</li>
+            </ul>
+
+            <h3>What I Learned</h3>
+
+            <p>
+                Add the knowledge, skills, or experience you gained
+                from this program.
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= CERTIFICATE 2 DETAILS ================= -->
+<section class="view detail-view" id="cert2">
+
+    <button class="back-btn" data-back="certification">
+        <i class="fa-solid fa-arrow-left"></i> Back to Certifications
+    </button>
+
+    <div class="detail-content">
+
+        <div class="detail-image">
+            <img src="certificate2.png" alt="Certificate Two">
+        </div>
+
+        <div class="detail-text">
+
+            <span class="small-label">CERTIFICATE DETAILS</span>
+
+            <h1>Introduction to AI Literacy and Responsible Use</h1>
+
+            <p>
+                Add a short description about this certificate,
+                including the training, seminar, or activity you attended.
+            </p>
+
+            <h3>Certificate Information</h3>
+
+            <ul>
+                <li><strong>Certificate:</strong> Introduction to AI Literacy and Responsible Use</li>
+                <li><strong>Organization:</strong> Mapua University</li>
+                <li><strong>Category:</strong> Artificial Intelligence (AI)</li>
+                <li><strong>Date:</strong> September 14, 2026</li>
+            </ul>
+
+            <h3>What I Learned</h3>
+
+            <p>
+                Describe the knowledge and skills you gained
+                from this certification.
+            </p>
+        </div>
+
+    </div>
+
+</section> 
+
+    
+<!-- ================= CERTIFICATE 3 DETAILS ================= -->
+<section class="view detail-view" id="cert3">
+
+    <button class="back-btn" data-back="certification">
+        <i class="fa-solid fa-arrow-left"></i>
+        Back to Certifications
+    </button>
+
+    <div class="detail-content">
+
+        <div class="detail-image">
+            <img src="certificate3.png" alt="Networking Basic Certificate">
+        </div>
+
+        <div class="detail-text">
+
+            <span class="small-label">CERTIFICATE DETAILS</span>
+
+            <h1>Networking Basic</h1>
+
+            <p>
+                This certificate recognizes my participation
+                and completion of a Networking Basic learning activity.
+            </p>
+
+            <h3>Certificate Information</h3>
+
+            <ul>
+                <li><strong>Certificate:</strong> Networking Basic</li>
+                <li><strong>Organization:</strong> CISCO</li>
+                <li><strong>Category:</strong> Networking / Online Webinar</li>
+                <li><strong>Date:</strong> May 18, 2026</li>
+            </ul>
+
+            <h3>What I Learned</h3>
+
+            <p>
+                Add the networking knowledge and skills you gained
+                from this activity.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CERTIFICATE 4 DETAILS ================= -->
+<section class="view detail-view" id="cert4">
+
+    <button class="back-btn" data-back="certification">
+        <i class="fa-solid fa-arrow-left"></i>
+        Back to Certifications
+    </button>
+
+    <div class="detail-content">
+
+        <div class="detail-image">
+            <img src="certificate4.png" alt="ICpEP Certificate">
+        </div>
+
+        <div class="detail-text">
+
+            <span class="small-label">CERTIFICATE DETAILS</span>
+
+            <h1>ANINO Intelligence Without Ordinary Boundaries</h1>
+
+            <p>
+                This certificate recognizes my participation
+                in an activity organized by the Institute of Computer
+                Engineers of the Philippines - Qatar Chapter.
+            </p>
+
+            <h3>Certificate Information</h3>
+
+            <ul>
+                <li><strong>Certificate:</strong> ANINO Intelligence Without Ordinary Boundaries</li>
+                <li><strong>Organization:</strong> Institute of Computer Engineers of the Philippines (ICpEP) - Qatar Chapter</li>
+                <li><strong>Category:</strong> Technology / Computer Engineering</li>
+                <li><strong>Date:</strong> October 17, 2026</li>
+            </ul>
+
+            <h3>What I Learned</h3>
+
+            <p>
+                Add the knowledge, insights, and experience you gained
+                from this activity.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+            <!-- CONTACT -->
+            <section class="view" id="contact">
+
+                <div class="section-heading">
+                    <span class="small-label">LET'S CONNECT</span>
+                    <h1>Contact <span>Me</span></h1>
+                    <p>Feel free to reach out. I'd love to hear from you!</p>
+                </div>
+
+                <div class="contact-grid">
+
+                    <div class="contact-card">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>dabalosjia@email.com</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>+63 9756772478</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>Capoocan, Leyte, Philippines</p>
+                    </div>
+
+                </div>
+
+                <div class="contact-message">
+                    <h2>Have a project in mind?</h2>
+                    <p>Let's work together and create something meaningful.</p>
+
+                    <a href="mailto:dabalosjia@email.com" class="primary-btn">
+                        Send Me an Email
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </a>
+                </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+
+<div id="imagePreview" class="image-preview">
+    <span class="preview-close" onclick="closeImagePreview()">&times;</span>
+    <img id="previewImage" src="" alt="Full Image Preview">
+</div>
+
+<!-- SETTINGS POPUP -->
+<div class="settings-overlay" id="settingsOverlay">
+    <div class="settings-panel">
+
+        <div class="settings-header">
+            <h2><i class="fa-solid fa-gear"></i> Settings</h2>
+
+            <button type="button" id="closeSettings">
+                &times;
+            </button>
+        </div>
+
+        <p>Customize your portfolio experience.</p>
+
+        <div class="setting-item">
+            <label>Language</label>
+            <select id="languageSelect">
+                <option value="en">English</option>
+                <option value="fil">Filipino</option>
+                <option value="ja">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="th">Thai</option>
+            </select>
+        </div>
+
+        <div class="setting-item">
+    <label>Font Style</label>
+    <select id="fontSelect">
+        <option value="Poppins">Poppins</option>
+        <option value="Roboto">Roboto</option>
+        <option value="Montserrat">Montserrat</option>
+        <option value="Lato">Lato</option>
+        <option value="Arial">Arial</option>
+        <option value="Georgia">Georgia</option>
+    </select>
+</div>
+
+        <div class="setting-item">
+            <label>Font Size</label>
+            <select id="fontSizeSelect">
+                <option value="14px">Small</option>
+                <option value="16px" selected>Normal</option>
+                <option value="18px">Large</option>
+                <option value="20px">Extra Large</option>
+            </select>
+        </div>
+
+        <button type="button" id="resetSettings">
+            Reset Settings
+        </button>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
